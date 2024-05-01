@@ -4,7 +4,7 @@
   "description": "Loading page for natours",
   "main": "index.js",
   "scripts": {
-   "compile:sass" : "node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "Sakshi Sharma",
   "license": "ISC",
@@ -12,6 +12,8 @@
     "node-sass": "^9.0.0"
   },
   "dependencies": {
-    "jquery": "^3.7.1"
+    "jquery": "^3.7.1",
+    "live": "^0.1.25-beta.0",
+    "server": "^1.0.39"
   }
 }
