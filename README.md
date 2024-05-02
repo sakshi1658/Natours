@@ -3,6 +3,9 @@
 
 Embark on an exhilarating learning journey with my GitHub project, NATOURS! Created with the aim of mastering advanced CSS and Sass, this project serves as a playground for honing skills in complex CSS animations, responsive design techniques, and cutting-edge layout frameworks like flexbox. Diving deep into the world of web development as I explore the intricacies of CSS architecture and fundamental concepts. Join me on this exciting adventure of growth and discovery!
 
+<!-- To compile scss command line is -->
+npm run compile:sass
+
 <!-- Used rem instead of px: -->
 
 ~ rem (root em) units are relative to the root (html) font size.
@@ -25,3 +28,10 @@ Example: .button__text, .navbar__link, .card__title
 
 ~ Modifier (block--modifier or block__element--modifier): Names of modifiers are written in lowercase and are separated from the block or element by two hyphens.
 Example: .button--primary, .button--large, .card--featured, .card__title--small
+
+<!-- To create new empty files from cmd -->
+
+type nul > _yourfilename.scss
+type nul > _mixins.scss
+type nul > _functions.scss
+
