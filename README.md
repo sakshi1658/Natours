@@ -35,3 +35,7 @@ type nul > _yourfilename.scss
 type nul > _mixins.scss
 type nul > _functions.scss
 
+<!-- To write easily class in html -->
+
+put . and then class name -> example (.test)
+
