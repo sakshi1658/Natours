@@ -39,3 +39,7 @@ type nul > _functions.scss
 
 put . and then class name -> example (.test)
 
+<!-- To write row and colum with class shortcut  -->
+
+ .row>.col-1-of-4>.feature
+
