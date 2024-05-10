@@ -5,14 +5,16 @@
     &:not(:last-child) {
         margin-bottom: $gutter-vertical;
 
-        @include respond(tab-port){
-            margin-right:  $gutter-vertical-small;
-         }
+        @include respond(tab-port) {
+            margin-bottom: $gutter-vertical-small;
+        }
     }
-    @include respond(tab-port){
-       max-width: 50rem;
-     }
     
+    @include respond(tab-port) {
+        max-width: 50rem;
+        padding: 0 3rem;
+    }
+
     @include clearfix;
 
     [class^="col-"] {
@@ -21,14 +23,14 @@
         &:not(:last-child) {
             margin-right: $gutter-horizontal;
 
-            @include respond(tab-port){
-               margin-right: 0;
-               margin-bottom: $gutter-vertical-small ;
+            @include respond(tab-port) {
+                margin-right: 0;
+                margin-bottom: $gutter-vertical-small;
             }
         }
 
-        @include respond(tab-port){
-            width:100% !important ;
+        @include respond(tab-port) {
+            width: 100% !important;
         }
     }
 
